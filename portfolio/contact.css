@@ -1,0 +1,113 @@
+/* about.css */
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Gap between columns and rows */
+}
+
+.column-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-column,
+.right-column,
+.new-left-column,
+.new-right-column {
+    padding: 20px;
+    color: white; /* Set text color to white for better readability */
+}
+
+.orange-bg {
+    background-color: rgb(255, 200, 90);
+}
+
+.lavender-bg {
+    background-color: rgb(222, 222, 255);
+}
+
+.green-bg {
+    background-color: rgb(140, 245, 140);
+}
+
+.red-bg {
+    background-color: rgb(255, 142, 142);
+}
+/* contact.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: peachpuff;
+    align-items: center; /* Center horizontally */
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    flex: 1;
+}
+
+/* contact.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: peachpuff;
+    align-items: center; /* Center horizontally */
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    flex: 1;
+}
+
+.column-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-column,
+.right-column,
+.new-left-column,
+.new-right-column {
+    padding: 20px;
+    color: white;
+}
+
+.orange-bg {
+    background-color: rgb(255, 200, 90);
+}
+
+.lavender-bg {
+    background-color: rgb(222, 222, 255);
+}
+
+.green-bg {
+    background-color: rgb(140, 245, 140);
+}
+
+.red-bg {
+    background-color: rgb(255, 142, 142);
+}
+
+.image-container {
+    margin-top: 20px; /* Add space between the columns and the image */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+}
+
+
+.image-container {
+    margin-top: 20px; /* Add space between the columns and the image */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+}
+
