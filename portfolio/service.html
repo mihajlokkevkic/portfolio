@@ -1,20 +1,68 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="service.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
+    <style>
+        body {
+            background-color: darkolivegreen;
+            color: white;
+        }
+        
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            border-radius: 5px; 
+            padding: 10px;
+            width: 300px; /* Adjust the width as needed */
+            margin: 20px auto; /* Center the card */
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 5px 5px 0 0;
+        }
+        .card2 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            border-radius: 5px; 
+            padding: 10px;
+            width: 300px; /* Adjust the width as needed */
+            margin: 20px auto; /* Center the card */
+        }
+
+        .card2:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .card2 img {
+            width: 100%;
+            border-radius: 5px 5px 0 0;
+        }
+    </style>
 </head>
-<style>
-    .green.bg{
-    background-color: darkolivegreen;
-    }
-</style>
-<body class="green bg">
-    <h1>my services: here are some projects i have done!</h1>
-    <ul>
-        <li>python snake game</li>
-        <li>iwiehgioewhgif</li>
-    </ul>
+<body>
+    <h1>My Services: Here Are Some Projects I Have Done!</h1>
+    <div class="card">
+        <img src="project.png" alt="tiktok">
+        <div class="container">
+            <h2><a href="service1.html">My TikTok Inspired Login Site</a></h2>
+            <p>It is a simple login site mini project I made for practice, but it is still one I'm proud of.</p>
+        </div>
+    </div>
+    <div class="card2">
+        <img src="snakegame.jpg" alt="snakegame">
+        <div class="container2">
+            <h2><a href="zmica.py">My Pygame snake project</a></h2>
+            <p>it is a game that i made whit Kadir,Amin and others in my proggraming classes in centar nit</p>
+        </div>
+    </div>
 </body>
 </html>
+
