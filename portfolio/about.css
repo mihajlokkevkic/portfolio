@@ -16,5 +16,7 @@ h2{
    width: 50%;
    align-self: self-start;
 }
-
+@media screen and (max-width: 900px) 
+{}.container{
+    flex-direction: column;}
 
