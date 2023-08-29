@@ -57,4 +57,7 @@
             border-color: rgb(192, 19, 255);
             
         }
+ @media screen and (max-width: 900px) 
+            {}.container{
+                flex-direction: column;}
 
