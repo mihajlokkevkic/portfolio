@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+     <link rel="stylesheet" href="contactme.css">
+</head>
+<body>
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h1> GET IN TOUCH</h1>
+            <input type="text" id="name" placeholder="your name" required>
+            <input type="email" id="email" placeholder="Email id" required>
+            <input type="text" id="phone" placeholder="Phone no." required>
+            <textarea id="message"rows="4" placeholder="How can i help you?"></textarea>
+            <button>SUBMIT</button>
+        </form>
+        </div> 
+        <script src='https://smtpjs.com/v3/smtp.j'></script>
+        <script>
+            function sendEmail(){
+                Email.send({
+                      Host : "smtp.gmail.com",
+                     Username : "mihajlomikikevkic@gmail.com",
+                     Password : "password",
+                    To : 'mihajlokevkic123@gmail.com',
+                    From : document.getElementbyid("Email").value,
+                   Subject : "new contact form enquiry",
+                   Body : "name:" + document.getElementbyid("Name").value,
+                          "<br> email:": + document.getElementbyid("Email").value,
+                          "<br> phone no.:": + document.getElementbyid("message").value,
+}).then(
+  message => alert('message sent in succses')
+);
+            }
+
+        </script>
+</body>
+</html>
