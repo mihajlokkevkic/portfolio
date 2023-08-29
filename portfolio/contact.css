@@ -1,4 +1,4 @@
-/* about.css */
+
 .content {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal columns */
@@ -110,4 +110,7 @@ body {
     display: flex;
     justify-content: center; /* Center the image horizontally */
 }
+@media screen and (max-width: 900px) 
+{}.container{
+    flex-direction: column;}
 
