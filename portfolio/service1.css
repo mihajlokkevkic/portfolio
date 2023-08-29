@@ -15,3 +15,6 @@ img{
     position: absolute;
     size: 90cqmax;
 }
+ @media screen and (max-width: 900px) 
+            {}.container{
+                flex-direction: column;}
