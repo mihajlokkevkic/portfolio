@@ -50,11 +50,13 @@
 
         body {
             background-color: aquamarine;
-        }
+             }
         nav {
             border-bottom: 1px solid #ffffff;
             padding-bottom: 5px; 
             border-color: rgb(192, 19, 255);
-            
-        }
+             }
+      @media screen and (max-width: 900px) 
+            {}.container{
+                flex-direction: column;}
 
