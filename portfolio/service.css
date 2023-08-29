@@ -63,3 +63,6 @@ li{
   body.green.bg {
     background-color: darkolivegreen;
   }
+ @media screen and (max-width: 900px) 
+            {}.container{
+                flex-direction: column;}
