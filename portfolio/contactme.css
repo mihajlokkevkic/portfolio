@@ -8,6 +8,7 @@ body{
     display: flex;
     justify-items: center;
     align-items: center;
+    margin-top: 70px;
 }
 form{
     background-color: palegoldenrod;
@@ -37,4 +38,11 @@ form button{
     width: 150px;
     margin: 20px auto 0;
     border-radius: 30px;
+}
+@media screen and (max-width: 900px) 
+{}.container{
+    flex-direction: column;}
+   
+.con{
+    padding: 50px;
 }
